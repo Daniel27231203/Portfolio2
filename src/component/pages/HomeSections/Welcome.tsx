@@ -8,7 +8,6 @@ import { GoChevronUp, GoChevronDown } from "react-icons/go";
 import { GoReply } from "react-icons/go";
 import profil from "../../../assets/profil.jpg";
 import Image from "next/image";
-import { useHeaderStore } from "@/stores/useHeaderStore";
 
 const Welcome = () => {
   const [language, setLanguage] = useState(false);

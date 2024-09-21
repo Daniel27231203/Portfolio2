@@ -1,7 +1,6 @@
 import React from "react";
 import scss from "./About.module.scss";
 import { GoTriangleRight } from "react-icons/go";
-import Image from "next/image";
 
 const About = () => {
   return (

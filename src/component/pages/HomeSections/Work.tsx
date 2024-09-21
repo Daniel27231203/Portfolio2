@@ -8,9 +8,9 @@ const Work = () => {
           <h1>PROJECTS</h1>
           <div className={scss.dot}>
             <p>
-              Below are some of the key projects I've worked on, focusing on
-              front-end development, user interfaces, and web applications. Each
-              project showcases my experience with technologies like React,
+              Below are some of the key projects I will be worked on, focusing
+              on front-end development, user interfaces, and web applications.
+              Each project showcases my experience with technologies like React,
               Vue.js, and modern JavaScript frameworks. You can explore the code
               or live versions to see the results in action.
             </p>
