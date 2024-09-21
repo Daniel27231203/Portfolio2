@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Sofadi+One&display=swap");
+
+.About {
+  padding: 20px 0;
+  width: 100%;
+  background: white;
+  .content {
+    h1 {
+      text-align: center;
+      font-family: "Inria Sans", sans-serif;
+      margin: 0 0 10px 0;
+    }
+    .block {
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      .leftBlock {
+        h3 {
+          font-size: 30px;
+          font-weight: 800;
+          font-family: "Sofadi One", system-ui;
+          span {
+            color: darkgoldenrod;
+          }
+        }
+        .skilBlock {
+          display: flex;
+          align-items: start;
+          flex-direction: column;
+          h5 {
+            font-size: 25px;
+            font-weight: 800;
+            font-family: "Inria Sans", sans-serif;
+            text-decoration: underline;
+            margin: 2px 0 5px 0;
+          }
+          ul {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            margin: 10px 0;
+            li {
+              display: flex;
+              align-items: center;
+              font-size: 20px;
+              padding: 5px 10px;
+              border-radius: 10px;
+              background: darkgreen;
+              color: white;
+            }
+          }
+        }
+      }
+      .rightBlock {
+        img {
+          width: 250px;
+          height: auto;
+        }
+        .box {
+          display: flex;
+          align-items: start;
+          flex-direction: column;
+          gap: 10px;
+
+          p {
+            width: 700px;
+            font-size: 15px;
+          }
+          .skilBlock {
+            display: flex;
+            align-items: start;
+            flex-direction: column;
+            h5 {
+              font-size: 25px;
+              font-weight: 800;
+              font-family: "Inria Sans", sans-serif;
+              text-decoration: underline;
+              margin: 2px 0 5px 0;
+            }
+            ul {
+              display: flex;
+              flex-direction: column;
+              gap: 5px;
+              margin: 10px 0;
+              li {
+                display: flex;
+                align-items: center;
+                font-size: 20px;
+                padding: 5px 10px;
+                border-radius: 10px;
+                background: darkgreen;
+                color: white;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1100px) {
+  .About {
+    .content {
+      .block {
+        padding: 0px;
+        display: flex;
+        justify-content: space-evenly;
+        .leftBlock {
+          h3 {
+            font-size: 25px;
+          }
+          .skilBlock {
+            h5 {
+              font-size: 20px;
+              font-weight: 700;
+            }
+            ul {
+              li {
+                font-size: 15px;
+              }
+            }
+          }
+        }
+        .rightBlock {
+          img {
+            width: 150px;
+          }
+          .box {
+            p {
+              width: 500px;
+            }
+            .skilBlock {
+              h5 {
+                font-size: 20px;
+                font-weight: 700;
+              }
+              ul {
+                li {
+                  font-size: 15px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 850px) {
+  .About {
+    .content {
+      .block {
+        .leftBlock {
+          h3 {
+            font-size: 20px;
+          }
+          .skilBlock {
+            h5 {
+              font-size: 15px;
+              font-weight: 500;
+            }
+            ul {
+              li {
+                font-size: 10px;
+              }
+            }
+          }
+        }
+        .rightBlock {
+          img {
+            width: 150px;
+          }
+          .box {
+            p {
+              width: 400px;
+            }
+            .skilBlock {
+              h5 {
+                font-size: 15px;
+                font-weight: 500;
+              }
+              ul {
+                li {
+                  font-size: 10px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 670px) {
+  .About {
+    .content {
+      .block {
+        display: flex;
+        align-items: start;
+        .rightBlock {
+          .box {
+            p {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}
