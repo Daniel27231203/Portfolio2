@@ -1,7 +1,7 @@
 import { IoIosHome } from "react-icons/io";
 import { MdContactPhone } from "react-icons/md";
 import { GiSkills } from "react-icons/gi";
-import { FaNetworkWired } from "react-icons/fa";
+import { PiProjectorScreenChartFill } from "react-icons/pi";
 
 const optionsScroll = {
   spy: true,
@@ -32,10 +32,10 @@ export const links = [
     duration: optionsScroll.duration,
   },
   {
-    name: "Work",
+    name: "projects",
     href: "/",
     to: "work",
-    icon: <FaNetworkWired />,
+    icon: <PiProjectorScreenChartFill />,
     spy: optionsScroll.spy,
     smooth: optionsScroll.smooth,
     offset: optionsScroll.offset,

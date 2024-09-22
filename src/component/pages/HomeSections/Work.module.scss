@@ -1,4 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Sofadi+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap");
+
 .Work {
-  height: 100vh;
-  background: red;
+  padding: 40px 0;
+  background: rgb(247, 244, 244);
+  .content {
+    .contentTitle {
+      padding: 10px 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 10px;
+      h1 {
+        font-family: "Inria Sans", sans-serif;
+        letter-spacing: 2px;
+        font-size: 25px;
+      }
+      p {
+        font-family: "Inria Sans", sans-serif;
+        color: rgb(49, 48, 48);
+        font-size: 18px;
+      }
+    }
+    .block {
+      padding: 20px 0;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      cursor: pointer;
+
+      .box {
+        padding: 20px;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        transition: transform 0.3s;
+        &:hover {
+          transform: scale(0.9);
+          box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.75);
+          -webkit-box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.75);
+          -moz-box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.75);
+        }
+
+        img {
+          width: 800px;
+          height: auto;
+        }
+        .boxTitle {
+          width: 750px;
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          h2 {
+            font-family: "Sofadi One", system-ui;
+            font-size: 25px;
+            color: darkgoldenrod;
+          }
+          div {
+            width: 100%;
+
+            li {
+              list-style: disc;
+              font-weight: 800;
+            }
+            p {
+              margin: 10px 0;
+              color: rgb(107, 95, 95);
+              span {
+                color: blue;
+                margin: 0 5px;
+              }
+            }
+          }
+          .link {
+            padding: 10px 30px;
+            background: darkgoldenrod;
+            text-align: center;
+            border-radius: 15px;
+            color: white;
+          }
+        }
+      }
+    }
+    .activeBlock {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      .activeBox {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 300px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1700px) {
+  .Work {
+    .content {
+      .block {
+        .box {
+          display: flex;
+          justify-content: space-evenly;
+          img {
+            width: 600px;
+            height: auto;
+          }
+          .boxTitle {
+            width: 450px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1200px) {
+  .Work {
+    .content {
+      .block {
+        .box {
+          display: flex;
+          justify-content: space-evenly;
+          img {
+            width: 400px;
+            height: auto;
+          }
+          .boxTitle {
+            width: 350px;
+            div {
+              p {
+                font-size: 10px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 850px) {
+  .Work {
+    .content {
+      .block {
+        .box {
+          display: flex;
+          justify-content: space-evenly;
+          img {
+            width: 300px;
+            height: auto;
+          }
+          .boxTitle {
+            width: 250px;
+            display: flex;
+            gap: 0px;
+            div {
+              p {
+                font-size: 10px;
+                margin: 2px 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 650px) {
+  .Work {
+    .content {
+      .block {
+        .box {
+          .boxTitle {
+            div {
+              li {
+                font-size: 15px;
+              }
+            }
+            .link {
+              padding: 2px;
+              font-size: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 450px) {
+  .Work {
+    .content {
+      .contentTitle {
+        h1 {
+          font-size: 15px;
+        }
+        p {
+          font-size: 10px;
+        }
+      }
+      .activeBlock {
+        .activeBox {
+          img {
+            width: 100%;
+          }
+          .boxTitle {
+            width: 100%;
+            div {
+              li {
+                font-size: 15px;
+              }
+            }
+            .link {
+              padding: 2px;
+              font-size: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
