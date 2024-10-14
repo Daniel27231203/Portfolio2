@@ -1,0 +1,60 @@
+// Footer.module.scss
+
+.Footer {
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    p {
+      margin: 0;
+      font-size: 16px;
+    }
+
+    .socialLinks {
+      display: flex;
+      gap: 15px;
+
+      a {
+        color: #fff;
+        font-size: 24px;
+        transition: color 0.3s;
+
+        &:hover {
+          color: #007bff;
+        }
+      }
+    }
+  }
+}
+
+// Адаптивность
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .socialLinks a {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .content p {
+    font-size: 14px;
+  }
+}

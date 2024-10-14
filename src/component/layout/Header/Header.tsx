@@ -32,16 +32,12 @@ const Header = () => {
       headerRef.current,
       {
         opacity: 0,
-        // x: -30,
         duration: 2,
-        transition: 3000,
       },
       {
         opacity: 1,
-        // x: 0,
         duration: 2,
         ease: "power3.out",
-        transition: 3000,
       }
     );
   }, [logoAnimation]);
@@ -58,12 +54,8 @@ const Header = () => {
                 smooth={true}
                 offset={0}
                 duration={500}
-                onMouseOver={() => {
-                  setLogoAnimation(true);
-                }}
-                onMouseOut={() => {
-                  setLogoAnimation(false);
-                }}
+                onMouseOver={() => setLogoAnimation(true)}
+                onMouseOut={() => setLogoAnimation(false)}
               >
                 <Image src={Logo} alt="logo" />
                 {logoAnimation || isMobile ? (
@@ -96,10 +88,16 @@ const Header = () => {
                   </ul>
                 </nav>
                 <div className={scss.resume}>
-                  <button>
-                    <FaFile />
-                    resume
-                  </button>
+                  <a
+                    href="/resume.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <button>
+                      <FaFile />
+                      Resume
+                    </button>
+                  </a>
                 </div>
               </>
             ) : (

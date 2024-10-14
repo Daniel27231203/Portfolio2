@@ -7,136 +7,121 @@ const About = () => {
     <section id="about" className={scss.About}>
       <div className="container">
         <div className={scss.content}>
-          <h1>My Sliks</h1>
+          <h1>My Skills</h1>
 
           <div className={scss.block}>
             <div className={scss.leftBlock}>
               <h3>
                 Technical <span>Skills</span>
               </h3>
+
               <div className={scss.skilBlock}>
                 <h5>Frontend Development:</h5>
                 <ul>
                   <li>
-                    <GoTriangleRight />
-                    HTML5
+                    <GoTriangleRight /> HTML5
                   </li>
                   <li>
-                    {" "}
-                    <GoTriangleRight />
-                    CSS3
+                    <GoTriangleRight /> CSS3
                   </li>
                   <li>
-                    <GoTriangleRight />
-                    JavaScript ES6+
+                    <GoTriangleRight /> JavaScript ES6+
                   </li>
                   <li>
-                    {" "}
-                    <GoTriangleRight />
-                    React.js
+                    <GoTriangleRight /> React.js
                   </li>
                   <li>
-                    <GoTriangleRight />
-                    Redux, Toolkitx
+                    <GoTriangleRight /> Redux, Redux Toolkit
                   </li>
                   <li>
-                    <GoTriangleRight />
-                    Zustand
+                    <GoTriangleRight /> Zustand
                   </li>
                   <li>
-                    <GoTriangleRight />
-                    Next.js
+                    <GoTriangleRight /> Next.js
                   </li>
                   <li>
-                    <GoTriangleRight />
-                    TypeScript
+                    <GoTriangleRight /> TypeScript
                   </li>
                 </ul>
               </div>
+
               <div className={scss.skilBlock}>
                 <h5>Backend Development:</h5>
                 <ul>
                   <li>
-                    <GoTriangleRight />
-                    Node.Js
+                    <GoTriangleRight /> Node.js
                   </li>
                   <li>
-                    <GoTriangleRight />
-                    Express
+                    <GoTriangleRight /> Express
                   </li>
                 </ul>
               </div>
+
               <div className={scss.skilBlock}>
                 <h5>Database Management:</h5>
                 <ul>
                   <li>
-                    <GoTriangleRight />
-                    SQL (PostgreSQL)
+                    <GoTriangleRight /> SQL (PostgreSQL)
                   </li>
                 </ul>
               </div>
+
               <div className={scss.skilBlock}>
                 <h5>Version Control:</h5>
                 <ul>
                   <li>
-                    <GoTriangleRight />
-                    Git, GitHub{" "}
+                    <GoTriangleRight /> Git, GitHub
                   </li>
                 </ul>
               </div>
             </div>
+
             <div className={scss.rightBlock}>
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-gukc7EnLg2lXrV35IoDl3SrhFbupHeJhuw&s"
-                alt=""
+                alt="About Me"
               />
               <div className={scss.box}>
                 <p>
-                  Я создаю удобные и адаптивные интерфейсы с помощью HTML, CSS и
-                  JavaScript. Использую React, NextJs для разработки динамичных
-                  веб-приложений.
+                  I create user-friendly and responsive interfaces using HTML,
+                  CSS, and JavaScript. I develop dynamic web applications with
+                  React and Next.js.
                 </p>
                 <p>
-                  Работаю с серверной частью на Node.js и Express.js, а также
-                  создаю API. В проектах использую базы данных PostgreSQL для
-                  хранения данных.
+                  I work on the backend with Node.js and Express.js, and I build
+                  APIs. In my projects, I use PostgreSQL to manage data storage.
                 </p>
                 <p>
-                  Использую Git и работаю с платформой GitHub для контроля
-                  версий и работы в команде а также ... .
+                  I use Git for version control and collaborate with teams
+                  through GitHub.
                 </p>
                 <p>
-                  Sort skils <span>Коммуникация:</span> Умею эффективно общаться
-                  как устно, так и письменно, что помогает в работе с клиентами
-                  и командой. Готов быстро адаптироваться и находить общий язык
-                  с людьми из разных сфер.
+                  <span>Communication:</span> I can communicate effectively both
+                  orally and in writing, which helps in working with clients and
+                  teams. I quickly adapt and find a common language with people
+                  from various fields.
                 </p>
                 <p>
-                  <span>Проблемное мышление: :</span> Люблю решать сложные
-                  задачи, находить решения и оптимизировать процессы. В своих
-                  проектах я всегда стремлюсь найти наиболее эффективные пути
-                  выполнения задач.
+                  <span>Problem-solving:</span> I enjoy solving complex tasks,
+                  finding solutions, and optimizing processes. In my projects, I
+                  always aim to find the most efficient ways to accomplish
+                  tasks.
                 </p>
                 <p>
-                  <span>Управление временем:</span> Эффективно распределяю
-                  время, умею организовывать свою работу, что помогает соблюдать
-                  сроки и выполнять проекты вовремя.
+                  <span>Time Management:</span> I organize my tasks efficiently,
+                  manage my time well, and ensure deadlines are met.
                 </p>
                 <div className={scss.skilBlock}>
                   <h5>Language Skills:</h5>
                   <ul>
                     <li>
-                      <GoTriangleRight />
-                      Русский: свободно
+                      <GoTriangleRight /> Russian: Fluent
                     </li>
                     <li>
-                      {" "}
-                      <GoTriangleRight />
-                      Английский: средний
+                      <GoTriangleRight /> English: Intermediate
                     </li>
                     <li>
-                      <GoTriangleRight />
-                      JavaScript ES6+
+                      <GoTriangleRight /> JavaScript ES6+
                     </li>
                   </ul>
                 </div>

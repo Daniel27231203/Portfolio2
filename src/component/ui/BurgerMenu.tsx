@@ -33,10 +33,12 @@ const BurgerMenu = () => {
           </ul>
         </nav>
         <div className={scss.resume}>
-          <button>
-            <FaFile />
-            resume
-          </button>
+          <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+            <button>
+              <FaFile />
+              Resume
+            </button>
+          </a>
         </div>
       </div>
     </div>
